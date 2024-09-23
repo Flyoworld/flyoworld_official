@@ -16,14 +16,14 @@ jQuery(document).ready(function( $ ) {
   // Stick the header at top on scroll
   $("#header").sticky({topSpacing:0, zIndex: '50'});
 
-  // Intro background carousel
-  $("#intro-carousel").owlCarousel({
-    autoplay: true,
-    dots: false,
-    loop: true,
-    animateOut: 'fadeOut',
-    items: 1
-  });
+  // // Intro background carousel
+  // $("#intro-carousel").owlCarousel({
+  //   autoplay: true,
+  //   dots: false,
+  //   loop: true,
+  //   animateOut: 'fadeOut',
+  //   items: 1
+  // });
 
   // Initiate the wowjs animation library
   new WOW().init();
@@ -129,22 +129,22 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 3 } }
-  });
+  // // Testimonials carousel (uses the Owl Carousel library)
+  // $(".testimonials-carousel").owlCarousel({
+  //   autoplay: true,
+  //   dots: true,
+  //   loop: true,
+  //   responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 3 } }
+  // });
 
-  // Clients carousel (uses the Owl Carousel library)
-  $(".clients-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
-    }
-  });
+  // // Clients carousel (uses the Owl Carousel library)
+  // $(".clients-carousel").owlCarousel({
+  //   autoplay: true,
+  //   dots: true,
+  //   loop: true,
+  //   responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
+  //   }
+  // });
 
   // //Google Map
   // var get_latitude = $('#google-map').data('latitude');
